@@ -46,14 +46,14 @@ Este proyecto explora cómo se puede utilizar Machine Learning para construir un
 
 ## ¿Cómo correr el proyecto?
 
-1. Asegúrate de tener un entorno de Python 3 instalado (se recomienda usar `venv` o `conda`).
-2. Instala las dependencias necesarias con:
+1. Tener un entorno de Python 3 instalado (ya sea `venv` o `conda`).
+2. Instalar las dependencias necesarias con:
 
    ```bash
    pip install -r requirements.txt
 
-3. Abre el archivo Jupyter Notebook
+3. Abrir el archivo Jupyter Notebook
     ```bash
     jupyter notebook Entrega_3.ipynb
 
-4. Ejecuta cada celda en orden para visualizar resultados, métricas, gráficas y conclusiones.
+4. Ejecutar cada celda en orden para visualizar resultados, métricas, gráficas y conclusiones.
