@@ -1,6 +1,6 @@
-# Proyecto de Predicción de Señales de Trading con Regresión Logística
+# ML Solution
 
-Este proyecto explora cómo se puede utilizar Machine Learning para construir un modelo de predicción de señales de trading basadas en datos del ETF SPY. A través del uso de regresión logística y técnicas de ingeniería de características, buscamos predecir si el rendimiento de un activo será positivo o negativo en el corto plazo.
+Este proyecto explora cómo se puede utilizar Machine Learning para construir un modelo de predicción de señales de trading basadas en datos del ETF SPY. A través del uso de regresión logística, buscamos predecir si el rendimiento de un activo será positivo o negativo en el corto plazo.
 
 ## Parte 1: Pipeline inicial de ML
 
@@ -14,7 +14,7 @@ Este proyecto explora cómo se puede utilizar Machine Learning para construir un
   - Bandas de Bollinger
   - Momentum
 
-- Se definieron los conjuntos de features (X) y el target (y).
+- Se definieron los conjuntos de features X y el target y.
 - Se dividió el dataset en 70% entrenamiento y 30% prueba.
 - Se aplicó preprocesamiento con:
   - `OneHotEncoder` para variables categóricas.
@@ -44,7 +44,7 @@ Este proyecto explora cómo se puede utilizar Machine Learning para construir un
 
 ---
 
-## ¿Cómo correr el proyecto?
+## ¿Cómo correr el jupyter notebook?
 
 1. Tener un entorno de Python 3 instalado (ya sea `venv` o `conda`).
 2. Instalar las dependencias necesarias con:
